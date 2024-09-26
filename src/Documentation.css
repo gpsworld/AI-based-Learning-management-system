@@ -1,0 +1,35 @@
+/* Documentation.css */
+.documentation-container {
+  padding: 40px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.documentation-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.documentation-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+h5 {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}

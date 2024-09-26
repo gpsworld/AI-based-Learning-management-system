@@ -1,0 +1,41 @@
+/* Home.css */
+.home-container {
+  padding: 20px;
+  position: relative;
+  z-index: 1; /* Ensure content is above the background */
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+}
+
+.home-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1599081595921-238c45c87bda?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace with your chosen image URL */
+  background-size: cover;
+  background-position: center;
+  animation: fadeIn 10s infinite alternate; /* Adjust animation as needed */
+  z-index: 0; /* Set below the content */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
